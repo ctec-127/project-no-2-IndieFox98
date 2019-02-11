@@ -54,13 +54,13 @@
                 echo '<br><h2 class="centered"><strong>Introducing your new fursona, ' . $name . ' the ' . $animal . '!</strong></h2><br>';
                 switch ($animal) {
                     case 'fox':
-                        echo '<img src="img/red-fox-14939022938mj.jpg" /><br>';
+                        echo '<img src="img/red-fox-14939022938mj.jpg" alt="Picture of a red fox." /><br>';
                         break;
                     case 'lynx':
-                        echo '<img src="img/bobcat-1516716737EBL.jpg" /><br>';
+                        echo '<img src="img/bobcat-1516716737EBL.jpg" alt="Picture of a bobcat." /><br>';
                         break;
                     case 'raccoon':
-                        echo '<img src="img/raton-laveur-4.jpg" /><br>';
+                        echo '<img src="img/raton-laveur-4.jpg" alt="Picture of a raccoon." /><br>';
                         break;
                     default:
                         echo '<p class="centered">Image of ' . $animal . ' is not available.</p><br>';
